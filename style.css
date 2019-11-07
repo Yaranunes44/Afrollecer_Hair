@@ -1,0 +1,42 @@
+body{
+    display: grid;
+    grid-template-areas: 'header header header header'
+                         'nav nav nav nav'
+                         'section section aside aside '
+                         'footer footer footer footer';
+    grid-auto-rows: 15vh 20vh 70vh 20vh;
+    margin: 0;
+}
+header{
+    grid-area: header;
+    background-color: rgb(255, 182, 86);
+}
+h1{
+    font-size: 30pt;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+     
+}
+
+nav{
+    grid-area: nav;
+    background-color: rgb(8, 233, 214);
+    font-size: 15pt;
+    justify-content: center;
+    align-items: center;
+    
+}
+aside{
+    grid-area: aside;
+    background-image:url(imagens/trancinhas-no-cabelo-3-tipos-de-trancas-para-cabelo__952411_.jpg);
+}
+section{
+    grid-area: section;
+    background-color: blueviolet
+}
+footer{
+    grid-area: footer;
+    background-color: yellow;
+}
