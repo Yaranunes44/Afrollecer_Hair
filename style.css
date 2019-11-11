@@ -28,9 +28,16 @@ nav{
     align-items: center;
     
 }
-aside{
+aside {
+    background-image: url(imagens/d65c5910fa2eabf8c461c60c22e7b872.jpg);
+    background-size: cover;
+    background-size: contain;
     grid-area: aside;
-    background-image:url(imagens/trancinhas-no-cabelo-3-tipos-de-trancas-para-cabelo__952411_.jpg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    
 }
 section{
     grid-area: section;
